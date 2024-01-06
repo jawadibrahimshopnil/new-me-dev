@@ -8,6 +8,7 @@
 section {
   max-width: 1140px;
   margin: 0px auto;
+  margin-bottom: 100px;
 }
 
 /* header */
@@ -109,7 +110,7 @@ section {
 }
 
 /* plan section */
-.plan-section{
+.plan-section {
   margin-bottom: 145px;
 }
 .plan-section > h1 {
@@ -134,4 +135,20 @@ section {
   color: #737272;
   font-size: 25px;
   font-weight: 500;
+}
+
+/* card positive */
+.card-positive {
+  background: url("/images/gradient1.png") no-repeat,
+    url("/images/watch.png") no-repeat;
+  padding: 60px 617px 60px 65px;
+}
+.card-positive h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.card-positive button {
+  padding: 20px 35px;
 }
